@@ -1,0 +1,77 @@
+﻿bundle : C:/Ruby34-x64/lib/ruby/3.4.0/win32/registry.rb:2: warning:
+ fiddle/import is found in fiddle, which will no longer be part of 
+the default gems starting from Ruby 3.5.0.
+At line:1 char:1
++ bundle exec rubocop 2>&1 | Out-File -FilePath rubocop_output.txt 
+-Enc ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (C:/Ruby34-x64/l...rom 
+    Ruby 3.5.0.:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+You can add fiddle to your Gemfile or gemspec to silence this warni
+ng.
+C:/Users/judez/.local/share/gem/ruby/3.4.0/gems/rubocop-sketchup-1.
+5.0/lib/rubocop/sketchup/formatter/extension_review.rb:5: warning: 
+ostruct was loaded from the standard library, but will no longer be
+ part of the default gems starting from Ruby 3.5.0.
+You can add ostruct to your Gemfile or gemspec to silence this warn
+ing.
+C:/Users/judez/.local/share/gem/ruby/3.4.0/gems/rubocop-sketchup-1.
+5.0/lib/rubocop/sketchup/formatter/extension_review.rb:6: warning: 
+base64 was loaded from the standard library, but is not part of the
+ default gems starting from Ruby 3.4.0.
+You can add base64 to your Gemfile or gemspec to silence this warni
+ng.
+cannot load such file -- base64
+C:/Ruby34-x64/lib/ruby/3.4.0/bundled_gems.rb:82:in 'Kernel.require'
+C:/Ruby34-x64/lib/ruby/3.4.0/bundled_gems.rb:82:in 'block (2 levels
+) in Kernel#replace_require'
+C:/Users/judez/.local/share/gem/ruby/3.4.0/gems/rubocop-sketchup-1.
+5.0/lib/rubocop/sketchup/formatter/extension_review.rb:6:in '<top (
+required)>'
+C:/Ruby34-x64/lib/ruby/3.4.0/bundled_gems.rb:82:in 'Kernel.require'
+C:/Ruby34-x64/lib/ruby/3.4.0/bundled_gems.rb:82:in 'block (2 levels
+) in Kernel#replace_require'
+C:/Users/judez/.local/share/gem/ruby/3.4.0/gems/rubocop-sketchup-1.
+5.0/lib/rubocop-sketchup.rb:8:in '<top (required)>'
+C:/Ruby34-x64/lib/ruby/3.4.0/bundled_gems.rb:82:in 'Kernel.require'
+C:/Ruby34-x64/lib/ruby/3.4.0/bundled_gems.rb:82:in 'block (2 levels
+) in Kernel#replace_require'
+C:/Users/judez/.local/share/gem/ruby/3.4.0/gems/rubocop-1.81.7/lib/
+rubocop/feature_loader.rb:35:in 'RuboCop::FeatureLoader#load'
+C:/Users/judez/.local/share/gem/ruby/3.4.0/gems/rubocop-1.81.7/lib/
+rubocop/feature_loader.rb:21:in 'RuboCop::FeatureLoader.load'
+C:/Users/judez/.local/share/gem/ruby/3.4.0/gems/rubocop-1.81.7/lib/
+rubocop/config_loader_resolver.rb:32:in 'block (2 levels) in RuboCo
+p::ConfigLoaderResolver#resolve_requires'
+C:/Users/judez/.local/share/gem/ruby/3.4.0/gems/rubocop-1.81.7/lib/
+rubocop/config_loader_resolver.rb:21:in 'Array#each'
+C:/Users/judez/.local/share/gem/ruby/3.4.0/gems/rubocop-1.81.7/lib/
+rubocop/config_loader_resolver.rb:21:in 'block in RuboCop::ConfigLo
+aderResolver#resolve_requires'
+<internal:kernel>:91:in 'Kernel#tap'
+C:/Users/judez/.local/share/gem/ruby/3.4.0/gems/rubocop-1.81.7/lib/
+rubocop/config_loader_resolver.rb:20:in 'RuboCop::ConfigLoaderResol
+ver#resolve_requires'
+C:/Users/judez/.local/share/gem/ruby/3.4.0/gems/rubocop-1.81.7/lib/
+rubocop/config_loader.rb:55:in 'RuboCop::ConfigLoader.load_file'
+C:/Users/judez/.local/share/gem/ruby/3.4.0/gems/rubocop-1.81.7/lib/
+rubocop/config_loader.rb:120:in 'RuboCop::ConfigLoader.configuratio
+n_from_file'
+C:/Users/judez/.local/share/gem/ruby/3.4.0/gems/rubocop-1.81.7/lib/
+rubocop/config_store.rb:73:in 'RuboCop::ConfigStore#for_dir'
+C:/Users/judez/.local/share/gem/ruby/3.4.0/gems/rubocop-1.81.7/lib/
+rubocop/config_store.rb:52:in 'RuboCop::ConfigStore#for_pwd'
+C:/Users/judez/.local/share/gem/ruby/3.4.0/gems/rubocop-1.81.7/lib/
+rubocop/cli.rb:216:in 'RuboCop::CLI#apply_default_formatter'
+C:/Users/judez/.local/share/gem/ruby/3.4.0/gems/rubocop-1.81.7/lib/
+rubocop/cli.rb:52:in 'block in RuboCop::CLI#run'
+C:/Users/judez/.local/share/gem/ruby/3.4.0/gems/rubocop-1.81.7/lib/
+rubocop/cli.rb:87:in 'RuboCop::CLI#profile_if_needed'
+C:/Users/judez/.local/share/gem/ruby/3.4.0/gems/rubocop-1.81.7/lib/
+rubocop/cli.rb:45:in 'RuboCop::CLI#run'
+C:/Users/judez/.local/share/gem/ruby/3.4.0/gems/rubocop-1.81.7/exe/
+rubocop:15:in '<top (required)>'
+C:/Ruby34-x64/bin/rubocop:36:in 'Kernel#load'
+C:/Ruby34-x64/bin/rubocop:36:in '<main>'
